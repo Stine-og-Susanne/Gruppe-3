@@ -2,20 +2,20 @@
 
 <!--Vi bruker !DOCTYPE html for å vise at det er ei html-nettside.-->
     <html>
-<!--Head bruker du til overskrifter, h1, h2, h3... avgjør hvilken størrelse overskriften blir-->
+<!--mellom <head> og </head> angir vi informasjon om dokumentet vårt-->
     <head>
+<!--Title gir dokumentet en tittel-->     
     <title> Servicedesk </title>
 <!--Meta charset viser at det er eit tegnsett vi kan bruke, og UTF-8 gjør at vi kan bruke æ, ø, å -->
     <meta charset="UTF-8">
     </head>
-<!--Body viser at det er starten på den vanlige teksten-->
+<!--Body viser alt som skal være synlig i HTML-dokumentet-->
     <body>
-    
-  
+        
     <h2> Hvordan lage nettside og bruker på Github </h2>
     <ol>
     <h3> <li> Gå inn på www.github.com og start med lage en ny bruker </li> </h3>
-   
+<!--<img src="img/navnpåbilde.png" alt="navnpåbilde" width="bredde" height="høyde"> bruker du for å legge inn eit bilde-->
     <img src="Bilder/logginn.png" alt="logg inn" width="424" height="511"/>   
    
     <h3> <li> Når du har kommet inn på github må du trykke på plusstegnet oppe i høyre hjørnet og klikker på new repository </li> </h3>
@@ -26,20 +26,16 @@
          
     <h3> <li> Når du kommer inn på repositoryen gir du den et navn under der det står "repository name" </li> </h3> <br>
     <ul>
-    <li> Du velger om du vil legge inn en forklaring på hva du skal bruke den til på "description". </li>
-    <li> Du må beholde resporitoryen public hvis du vil at andre skal se hva du har laget. </li>    
-    <li> Kryss deretter av alle dei tre boksene, og endre gitignore templaten til jekyll. </li>  
+    <h4> <li> Du velger om du vil legge inn en forklaring på hva du skal bruke den til på "description". </li>
+    <li> Du må beholde repositoryen public hvis du vil at andre skal se hva du har laget. </li>    
+    <li> Kryss deretter av alle dei tre boksene, og endre gitignore templaten til jekyll. </li> </h4> 
     </ul>
     <img src="Bilder/Create_repository.png" alt="lage repsoitory"/>
-          
-       
-    
-        Kryss deretter av alle dei tre boksene, og endre gitignore templaten til jekyll.
-    
-
-<!--<img src="img/navnpåbilde.png" alt="navnpåbilde" width="bredde" height="høyde"> bruker du for å legge inn eit bilde-->
-      <img src="img/innstillinger.png" alt="innstillinger" width="783" height="814">
- 
+   
+    <h3> <li> Slik ser siden ut når du har laget et repository </li> </h3>
+        
+    <img src="Bilder/Repository2.png" alt="Repository siden"/>
+        
     Deretter velger du selv om du vil endre navn på "default branch". <br> Så må du fikse en del for å få det på rett branch slik at nettsiden kan funke.<br>
       Da starter du med og trykke på options og bla nedover til du finner stedet hvor det står github pages.<br> 
       Her endrer du branchen til den branchen du skal bruke og det vil nå være mulig og publisere ei nettside når du er ferdig og kode den.<br> 
